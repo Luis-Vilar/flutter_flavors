@@ -11,7 +11,7 @@ void bootstrap() {
   runZonedGuarded(
     () {
       WidgetsFlutterBinding.ensureInitialized();
-      Dio dio = Dio();
+      Dio dio = Dio()..interceptors.add(AppDioInterceptor());
       initDependencyInjection(dio: dio);
       runApp(AppWidget());
     },

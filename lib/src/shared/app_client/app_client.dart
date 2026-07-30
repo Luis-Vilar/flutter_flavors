@@ -18,13 +18,13 @@ final class AppClientDioImpl implements AppClient {
     Map<String, dynamic>? header,
   }) async {
     try {
-      final result = await dio.get(url, options: Options(headers: header));
+      final result = await dio.get(url);
       if (result.statusCode == 200) {
         return result.data;
       }
       throw Exception();
     } on DioException catch (e) {
-      rethrow;
+      throw e.error as Exception;
     } catch (e) {
       rethrow;
     }

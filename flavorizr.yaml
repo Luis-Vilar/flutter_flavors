@@ -1,0 +1,38 @@
+flavors:
+  dev:
+    app:
+      name: "Dev App"
+
+    android:
+      applicationId: "com.example.dev"
+      icon: "assets/icon/app_icon_launcher.png"
+      adaptiveIcon:
+        foreground: "assets/icon/dev/orange.png"
+        background: "assets/icon/dev/orange.png"
+        monochrome: "assets/icon/dev/orange.png"
+    ios:
+      bundleId: "com.example.dev"
+      icon: "assets/icon/app_icon_launcher.png"
+      adaptiveIcon:
+        foreground: "assets/icon/dev/orange.png"
+        background: "assets/icon/dev/orange.png"
+        monochrome: "assets/icon/dev/orange.png"
+
+  prod:
+    app:
+      name: "Prod App"
+
+    android:
+      applicationId: "br.com.rafael.gerencia_estado_injecao_dependencia"
+      icon: "assets/icon/app_icon_launcher.png"
+      adaptiveIcon:
+        foreground: "assets/icon/prod/neon.png"
+        background: "assets/icon/prod/neon.png"
+        monochrome: "assets/icon/prod/neon.png"
+    ios:
+      bundleId: "br.com.rafael.gerencia_estado_injecao_dependencia"
+      icon: "assets/icon/app_icon_launcher.png"
+      adaptiveIcon:
+        foreground: "assets/icon/prod/neon.png"
+        background: "assets/icon/prod/neon.png"
+        monochrome: "assets/icon/prod/neon.png"

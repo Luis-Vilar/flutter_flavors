@@ -1,3 +1,4 @@
+import 'package:gerencia_estado_injecao_dependencia/flavors.dart';
 import 'package:gerencia_estado_injecao_dependencia/src/shared/app_client/app_client.dart';
 
 sealed class IBreedRemoteDatasource {
@@ -12,7 +13,7 @@ class BreedRemoteDatasourceImpl implements IBreedRemoteDatasource {
   @override
   Future<Map<String, dynamic>> getBreed() async {
     final result = await client.get(
-      url: 'https://api.thedogapi.com/v1/breeds/1',
+      url: F.apiUrl,
       header: {
         'x-api-key':
             'live_sAQtB5PmXpBasJuhm9UU27CfHmnGaOLYySV0XWVyhkRaM1485Ljvx5xru4iYaG1w',

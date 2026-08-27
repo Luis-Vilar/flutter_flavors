@@ -5,18 +5,18 @@ flavors:
 
     android:
       applicationId: "com.example.dev"
-      icon: "assets/icon/app_icon_launcher.png"
+      icon: "assets/icon/dev/dog_launcher.png"
       adaptiveIcon:
-        foreground: "assets/icon/dev/orange.png"
-        background: "assets/icon/dev/orange.png"
-        monochrome: "assets/icon/dev/orange.png"
+        foreground: "assets/icon/dev/dog_foreground.png"
+        background: "assets/icon/dev/dog_background.png"
+        monochrome: "assets/icon/dev/dog_monochrome.png"
     ios:
       bundleId: "com.example.dev"
-      icon: "assets/icon/app_icon_launcher.png"
+      icon: "assets/icon/dev/dog_launcher.png"
       adaptiveIcon:
-        foreground: "assets/icon/dev/orange.png"
-        background: "assets/icon/dev/orange.png"
-        monochrome: "assets/icon/dev/orange.png"
+        foreground: "assets/icon/dev/dog_foreground.png"
+        background: "assets/icon/dev/dog_background.png"
+        monochrome: "assets/icon/dev/dog_monochrome.png"
 
   prod:
     app:
@@ -24,15 +24,15 @@ flavors:
 
     android:
       applicationId: "br.com.rafael.gerencia_estado_injecao_dependencia"
-      icon: "assets/icon/app_icon_launcher.png"
+      icon: "assets/icon/prod/dog_launcher.png"
       adaptiveIcon:
-        foreground: "assets/icon/prod/neon.png"
-        background: "assets/icon/prod/neon.png"
-        monochrome: "assets/icon/prod/neon.png"
+        foreground: "assets/icon/prod/dog_foreground.png"
+        background: "assets/icon/prod/dog_background.png"
+        monochrome: "assets/icon/prod/dog_monochrome.png"
     ios:
       bundleId: "br.com.rafael.gerencia_estado_injecao_dependencia"
-      icon: "assets/icon/app_icon_launcher.png"
+      icon: "assets/icon/prod/dog_launcher.png"
       adaptiveIcon:
-        foreground: "assets/icon/prod/neon.png"
-        background: "assets/icon/prod/neon.png"
-        monochrome: "assets/icon/prod/neon.png"
+        foreground: "assets/icon/prod/dog_foreground.png"
+        background: "assets/icon/prod/dog_background.png"
+        monochrome: "assets/icon/prod/dog_monochrome.png"

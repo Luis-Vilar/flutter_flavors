@@ -4,10 +4,12 @@ class BreedModel {
   final String name;
   final String temperament;
   final String origin;
+  final Map<String, dynamic> image;
   BreedModel({
     required this.name,
     required this.temperament,
     required this.origin,
+    required this.image,
   });
 
   Map<String, dynamic> toMap() {
@@ -23,6 +25,7 @@ class BreedModel {
       name: map['name'] as String,
       temperament: map['temperament'] as String,
       origin: map['origin'] as String,
+      image: map['image'],
     );
   }
 
